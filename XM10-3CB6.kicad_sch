@@ -5,7 +5,7 @@
 	(uuid "c9b50a66-f43e-4343-bfa9-2a9ad902d7ca")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Valve:EL84"
+(symbol "Valve:3CB6"
 			(pin_names
 				(offset 0)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "EL84"
+(property "Value" "3CB6"
 				(at 7.62 -7.62 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Valve:Valve_Noval_P"
+(property "Footprint" "Valve:Valve_B7G_P"
 				(at 7.62 -10.16 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.r-type.org/pdfs/el84.pdf"
+(property "Datasheet" "http://www.r-type.org/pdfs/3cb6.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "VALVE*NOVAL*P*"
+(property "ki_fp_filters" "VALVE*B7G*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EL84_0_1"
+(symbol "3CB6_0_1"
 				(polyline
 					(pts
 						(xy -5.08 3.81) (xy -5.08 -2.54) (xy -5.08 -2.54)
@@ -131,7 +131,7 @@
 					)
 				)
 			)
-			(symbol "EL84_1_0"
+(symbol "3CB6_1_0"
 				(polyline
 					(pts
 						(xy -2.54 -5.08) (xy -2.54 -7.62)
@@ -145,7 +145,7 @@
 					)
 				)
 			)
-			(symbol "EL84_1_1"
+(symbol "3CB6_1_1"
 				(polyline
 					(pts
 						(xy -5.08 -1.27) (xy -3.175 -1.27)
@@ -444,7 +444,7 @@
 							)
 						)
 					)
-					(number "2"
+(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -452,62 +452,80 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -2.54 -8.89 90)
-					(length 2.54)
-					(name "K_G3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 11.43 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+                                (pin bidirectional line
+                                        (at -2.54 -8.89 90)
+                                        (length 2.54)
+                                        (name "K"
+                                                (effects
+                                                        (font
+                                                                (size 1.27 1.27)
+                                                        )
+                                                )
+                                        )
+                                        (number "2"
+                                                (effects
+                                                        (font
+                                                                (size 1.27 1.27)
+                                                        )
+                                                )
+                                        )
+                                )
+                                (pin output line
+                                        (at 0 11.43 270)
+                                        (length 2.54)
+                                        (name "A"
+                                                (effects
+                                                        (font
+                                                                (size 1.27 1.27)
+                                                        )
+                                                )
+                                        )
+                                        (number "5"
+                                                (effects
+                                                        (font
+                                                                (size 1.27 1.27)
+                                                        )
+                                                )
+                                        )
+                                )
+                                (pin input line
+                                        (at 7.62 1.27 180)
+                                        (length 2.54)
+                                        (name "G2"
+                                                (effects
+                                                        (font
+                                                                (size 1.27 1.27)
+                                                        )
+                                                )
+                                        )
+                                        (number "6"
+                                                (effects
+                                                        (font
+                                                                (size 1.27 1.27)
+                                                        )
+                                                )
+                                        )
+                                )
+                                (pin input line
+                                        (at 7.62 -1.27 180)
+                                        (length 2.54)
+                                        (name "G3"
+                                                (effects
+                                                        (font
+                                                                (size 1.27 1.27)
+                                                        )
+                                                )
+                                        )
+                                        (number "7"
+                                                (effects
+                                                        (font
+                                                                (size 1.27 1.27)
+                                                        )
+                                                )
+                                        )
+                                )
 			)
-			(symbol "EL84_2_1"
+(symbol "3CB6_2_1"
 				(polyline
 					(pts
 						(xy -2.54 -5.08) (xy -2.54 -6.35) (xy -2.54 -6.35)
@@ -554,7 +572,7 @@
 							)
 						)
 					)
-					(number "4"
+(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -572,7 +590,7 @@
 							)
 						)
 					)
-					(number "5"
+(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -585,7 +603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Valve:EL84")
+(lib_id "Valve:3CB6")
 		(at 151.13 87.63 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -603,7 +621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EL84"
+(property "Value" "3CB6"
 			(at 157.48 88.2649 0)
 			(effects
 				(font
@@ -612,7 +630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+(property "Footprint" "Valve:Valve_B7G_P"
 			(at 158.75 97.79 0)
 			(effects
 				(font
@@ -621,7 +639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.r-type.org/pdfs/el84.pdf"
+(property "Datasheet" "http://www.r-type.org/pdfs/3cb6.pdf"
 			(at 151.13 87.63 0)
 			(effects
 				(font
@@ -639,24 +657,27 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "fc813e66-dfe5-4df7-8c89-196707acbc7f")
-		)
-		(pin "3"
-			(uuid "5e04ba63-36b2-4c5a-9242-9930f695ebb2")
-		)
-		(pin "2"
-			(uuid "bdbeb6d0-5b15-472a-82fb-7f49210f57e7")
-		)
-		(pin "4"
-			(uuid "b5d13fea-5145-4731-8011-bc4c16794b8f")
-		)
-		(pin "9"
-			(uuid "cad71111-6a15-4f11-aec6-c1ab42eeccd1")
-		)
-		(pin "5"
-			(uuid "d63c8bd5-6b10-4271-8b62-8fb75df7d8fe")
-		)
+                (pin "5"
+                        (uuid "fc813e66-dfe5-4df7-8c89-196707acbc7f")
+                )
+                (pin "2"
+                        (uuid "5e04ba63-36b2-4c5a-9242-9930f695ebb2")
+                )
+                (pin "1"
+                        (uuid "bdbeb6d0-5b15-472a-82fb-7f49210f57e7")
+                )
+                (pin "3"
+                        (uuid "b5d13fea-5145-4731-8011-bc4c16794b8f")
+                )
+                (pin "6"
+                        (uuid "cad71111-6a15-4f11-aec6-c1ab42eeccd1")
+                )
+                (pin "4"
+                        (uuid "d63c8bd5-6b10-4271-8b62-8fb75df7d8fe")
+                )
+                (pin "7"
+                        (uuid "97412cfb-0b34-4f62-a6bd-f98833061b8e")
+                )
 		(instances
 			(project ""
 				(path "/c9b50a66-f43e-4343-bfa9-2a9ad902d7ca"
@@ -667,7 +688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Valve:EL84")
+(lib_id "Valve:3CB6")
 		(at 119.38 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -684,7 +705,7 @@
 				)
 			)
 		)
-		(property "Value" "EL84"
+(property "Value" "3CB6"
 			(at 128.27 83.7498 0)
 			(effects
 				(font
@@ -692,7 +713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+(property "Footprint" "Valve:Valve_B7G_P"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -701,7 +722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.r-type.org/pdfs/el84.pdf"
+(property "Datasheet" "http://www.r-type.org/pdfs/3cb6.pdf"
 			(at 119.38 88.9 0)
 			(effects
 				(font
@@ -719,24 +740,27 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "fc813e66-dfe5-4df7-8c89-196707acbc7f")
-		)
-		(pin "3"
-			(uuid "5e04ba63-36b2-4c5a-9242-9930f695ebb2")
-		)
-		(pin "2"
-			(uuid "bdbeb6d0-5b15-472a-82fb-7f49210f57e7")
-		)
-		(pin "4"
-			(uuid "b5d13fea-5145-4731-8011-bc4c16794b8f")
-		)
-		(pin "9"
-			(uuid "cad71111-6a15-4f11-aec6-c1ab42eeccd1")
-		)
-		(pin "5"
-			(uuid "d63c8bd5-6b10-4271-8b62-8fb75df7d8fe")
-		)
+                (pin "5"
+                        (uuid "fc813e66-dfe5-4df7-8c89-196707acbc7f")
+                )
+                (pin "2"
+                        (uuid "5e04ba63-36b2-4c5a-9242-9930f695ebb2")
+                )
+                (pin "1"
+                        (uuid "bdbeb6d0-5b15-472a-82fb-7f49210f57e7")
+                )
+                (pin "3"
+                        (uuid "b5d13fea-5145-4731-8011-bc4c16794b8f")
+                )
+                (pin "6"
+                        (uuid "cad71111-6a15-4f11-aec6-c1ab42eeccd1")
+                )
+                (pin "4"
+                        (uuid "d63c8bd5-6b10-4271-8b62-8fb75df7d8fe")
+                )
+                (pin "7"
+                        (uuid "97412cfb-0b34-4f62-a6bd-f98833061b8e")
+                )
 		(instances
 			(project ""
 				(path "/c9b50a66-f43e-4343-bfa9-2a9ad902d7ca"
