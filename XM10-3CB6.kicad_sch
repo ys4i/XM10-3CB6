@@ -452,6 +452,60 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -2.54 -8.89 90)
+					(length 2.54)
+					(name "K_G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 11.43 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
                                 (pin bidirectional line
                                         (at -2.54 -8.89 90)
                                         (length 2.54)
@@ -761,6 +815,7 @@
                 (pin "7"
                         (uuid "97412cfb-0b34-4f62-a6bd-f98833061b8e")
                 )
+
 		(instances
 			(project ""
 				(path "/c9b50a66-f43e-4343-bfa9-2a9ad902d7ca"
